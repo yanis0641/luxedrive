@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" prefHeight="415.0" prefWidth="684.0" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="18.0" layoutY="111.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="18.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="465.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="27.0" />
+      <ImageView fitHeight="306.0" fitWidth="269.0" layoutX="403.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" />
+      <ComboBox layoutX="37.0" layoutY="43.0" prefHeight="26.0" prefWidth="327.0" promptText="Location" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="20.0" />
+      <TextField layoutX="200.0" layoutY="111.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="200.0" />
+      <TextField layoutX="20.0" layoutY="170.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="20.0" />
+      <TextField layoutX="200.0" layoutY="162.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="200.0" />
+      <TextField layoutX="20.0" layoutY="215.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="20.0" />
+      <TextField layoutX="200.0" layoutY="215.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="200.0" />
+      <TextField layoutX="23.0" layoutY="277.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="23.0" />
+      <TextField layoutX="200.0" layoutY="277.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" AnchorPane.leftAnchor="200.0" />
+      <Label layoutX="30.0" layoutY="107.0" text="Locataire" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="150.0" prefHeight="23.0" prefWidth="135.0" text="Adresse de logement" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="107.0" text="Logement" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="153.0" text="Région" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="211.0" text="Type" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="265.0" text="Montant à payer" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="265.0" text="Forfitaire" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="211.0" text="Loyer" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="23.0" layoutY="326.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <TextField layoutX="200.0" layoutY="326.0" prefHeight="26.0" prefWidth="161.0" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="200.0" layoutY="314.0" text="Date fin" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="314.0" text="Date début" textFill="#166397">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="245.0" layoutY="367.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="175.0" styleClass="pink-btn" stylesheets="@../application/application.css" text="Imprimer" />
+   </children>
+</AnchorPane>
