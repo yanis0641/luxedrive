@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <Label text="Forum" />
+    <ScrollPane VBox.vgrow="ALWAYS">
+        <VBox>
+            <!-- This area is for displaying forum posts -->
+            <!-- For example: -->
+            <Label text="Post 1" />
+            <Label text="Content of Post 1" />
+            <Label text="Post 2" />
+            <Label text="Content of Post 2" />
+            <!-- End of example forum posts -->
+        </VBox>
+    </ScrollPane>
+    <TextArea fx:id="postTextArea" promptText="Write your post here..." stylesheets="@../application/application.css" />
+    <Button styleClass="buttons" stylesheets="@../application/application.css" text="Post" />
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>

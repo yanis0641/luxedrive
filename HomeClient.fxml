@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <AnchorPane layoutY="-8.0" prefHeight="515.0" prefWidth="200.0" style="-fx-background-color: #c83434;" AnchorPane.bottomAnchor="-7.0" AnchorPane.topAnchor="-8.0">
+         <children>
+            <Button alignment="BASELINE_LEFT" layoutX="20.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#accueilC" prefHeight="46.0" prefWidth="160.0" style="-fx-background-color: #c83434;" text="Accueil" textFill="WHITE" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="180.0" />
+            <Button alignment="BASELINE_LEFT" layoutX="45.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#voitureC" prefHeight="46.0" prefWidth="160.0" style="-fx-background-color: #c83434;" text="Les voitures " textFill="WHITE" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="239.0" />
+            <Button alignment="BASELINE_LEFT" layoutX="47.0" layoutY="309.0" mnemonicParsing="false" onMouseClicked="#locationC" prefHeight="46.0" prefWidth="160.0" style="-fx-background-color: #c83434;" text="Les Locations" textFill="WHITE" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="309.0" />
+            <Button alignment="BASELINE_LEFT" layoutX="47.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#factureC" prefHeight="46.0" prefWidth="144.0" style="-fx-background-color: #c83434;" text="Annulation" textFill="WHITE" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="375.0" />
+            <Button alignment="BASELINE_LEFT" layoutX="38.0" layoutY="439.0" mnemonicParsing="false" onMouseClicked="#historiquesC" prefHeight="46.0" prefWidth="149.0" style="-fx-background-color: #c83434;" text="Forum" textFill="WHITE" AnchorPane.leftAnchor="38.0" />
+            <Label fx:id="labelNomUtilisateur" graphicTextGap="30.0" layoutX="61.0" layoutY="112.0" lineSpacing="1.0" prefHeight="56.0" prefWidth="101.0" textAlignment="CENTER" AnchorPane.leftAnchor="61.0" />
+            <Button alignment="BASELINE_LEFT" layoutX="47.0" layoutY="517.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="46.0" prefWidth="124.0" style="-fx-background-color: #c83434;" text="se déconnecter" textFill="WHITE" AnchorPane.leftAnchor="30.0" />
+            <ImageView fitHeight="33.0" fitWidth="25.0" layoutX="2.0" layoutY="528.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="8.0">
+               <image>
+                  <Image url="@../images/logout(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="79.0" fitWidth="108.0" layoutX="61.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/user(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="2.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="8.0">
+               <image>
+                  <Image url="@../images/home.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="8.0">
+               <image>
+                  <Image url="@../images/car.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="23.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="8.0">
+               <image>
+                  <Image url="@../images/car-rental.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="23.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="8.0">
+               <image>
+                  <Image url="@../../../../paper.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="23.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="8.0">
+               <image>
+                  <Image url="@../images/chat.png" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </AnchorPane>
+      <Pane layoutX="200.0" prefHeight="79.0" prefWidth="705.0" style="-fx-background-color: #090909;">
+         <children>
+            <ImageView fitHeight="79.0" fitWidth="518.0" layoutX="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/luxedrive1.jpeg" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <AnchorPane fx:id="root" layoutX="200.0" layoutY="77.0" prefHeight="485.0" prefWidth="705.0" style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>

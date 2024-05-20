@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" minHeight="0.0" prefHeight="484.0" prefWidth="705.0" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SuppressionController">
+   <children>
+      <Label layoutX="268.0" layoutY="25.0" prefHeight="52.0" prefWidth="500.0" text="Supprimer une Voiture">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+       
+      <Button layoutX="596.0" layoutY="418.0" mnemonicParsing="false" onAction="#retourner" prefHeight="30.0" prefWidth="92.0" styleClass="buttons" stylesheets="@../application/application.css" text="Retour">
+    <font>
+        <Font size="14.0" />
+    </font>
+</Button>
+      <TextField fx:id="immatriculationField" layoutX="254.0" layoutY="100.0" prefHeight="52.0" prefWidth="260.0" promptText="Immatriculation" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" />
+     
+      <TextField fx:id="idField" layoutX="254.0" layoutY="176.0" prefHeight="52.0" prefWidth="260.0" promptText="ID" style="-fx-border-color: #7294AC;" styleClass="tf_box" stylesheets="@../application/application.css" />
+
+      <Button fx:id="deleteButton" layoutX="254.0" layoutY="302.0" mnemonicParsing="false" onAction="#supprimerVoiture" prefHeight="41.0" prefWidth="224.0" styleClass="buttons" stylesheets="@../application/application.css" text="Supprimer" />
+      <ImageView fitHeight="30.0" fitWidth="45.0" layoutX="210.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/trash.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="24.0" layoutX="566.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/return-button.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="381.0" prefWidth="279.0" styleClass="white-pane" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignUpController">
+   <children>
+      <Label text="S'inscrire" textFill="#c5304d">
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="200.0">
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+         <children>
+            <TextField fx:id="usernameTextField" prefHeight="31.0" prefWidth="279.0" promptText="Nom de l'utilisateur" styleClass="tf_box" stylesheets="@../application/application.css" />
+         </children>
+      </HBox>
+         <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="200.0">
+      <VBox.margin>
+         <Insets left="15.0" right="15.0" top="20.0" />
+      </VBox.margin>
+      <children>
+       
+         <TextField fx:id="phoneTextField" prefHeight="31.0" prefWidth="279.0" promptText="Numéro de téléphone" styleClass="tf_box" stylesheets="@../application/application.css" />
+      </children>
+   </HBox>
+   
+      <HBox alignment="CENTER_LEFT" layoutX="25.0" layoutY="187.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="emailTextField" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="239.0" promptText="Adresse mail" styleClass="tf_box" stylesheets="@../application/application.css">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" top="20.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="171.0" prefHeight="35.0" prefWidth="200.0" stylesheets="@../application/application.css">
+         <children>
+            <PasswordField fx:id="passwordTextField" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="239.0" promptText="Mot de passe" styleClass="tf_box" stylesheets="@../application/application.css">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" top="20.0" />
+               </HBox.margin>
+            </PasswordField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="200.0" stylesheets="@../application/application.css">
+         <children>
+            <Button fx:id="inscriptionButton" alignment="CENTER_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleInscription" prefHeight="32.0" prefWidth="172.0" styleClass="pink-btn" stylesheets="@../application/application.css" text="S'inscrire">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets left="60.0" />
+               </padding>
+            </Button>
+         </children>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

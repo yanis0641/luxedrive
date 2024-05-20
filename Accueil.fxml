@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane fx:id="scrollPane" prefHeight="518.0" prefWidth="705.0" style="-fx-background-color: #052046;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AccueilController">
+<VBox fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2500.0" prefWidth="705.0" spacing="20" style="-fx-background-color: #99a3a4;" styleClass="root-pane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+         <Label prefHeight="79.0" prefWidth="705.0" text="                                  NOUS SOMMES À VOTRE SERVICE 24H/24 ET 7J/7 POUR VOUS OFFRIR UN SERVICE DE LUXE." textAlignment="CENTER" textFill="#b90e0e" />
+      </children></VBox>
+  </ScrollPane>
