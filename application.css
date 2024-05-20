@@ -1,0 +1,76 @@
+/* JavaFX CSS - Leave this comment until you have at least created one rule which uses -fx-Property */
+.parent {
+    -fx-background-color: transparent;
+}
+.pane {
+    -fx-background-color: #c83436;
+}
+.trans-btn-white-border {
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-text-fill: whitesmoke;
+}
+.white-pane {
+    -fx-background-color: #c83436;
+    -fx-background-size: 281 386;
+    -fx-background-position: center center;
+}
+.tf_box {
+    -fx-background-color: transparent;
+    -fx-border-color: #DEDEE4;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+.tf {
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: #2C2C2C;
+}
+.pink-btn {
+    -fx-background-color: #C5304D;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #FFFFFF;
+}
+.mot {
+    -fx-background-color: #D3D3D3;
+}
+.backgrnd {
+    -fx-background-color: #F7F7F7;
+    -fx-background-radius: 0px;
+}
+.table-view {
+    -fx-background-color: transparent;
+}
+.table-view-focused {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+.table-view .column-header-background .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+.table-row-cell {
+    -fx-background-color: -fx-table-cell-border-color, #e43333;
+    -fx-background-insets: 0, 0.0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:odd {
+    -fx-background-color: -fx-table-cell-border-color, #c04848;
+    -fx-background-insets: 0, 0.0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.buttons {
+    -fx-background-color: #0C0C0C;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #FFFFFF;
+}
